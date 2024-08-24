@@ -48,4 +48,11 @@ This repository contains an automated testing project for the prom.ua website, a
 1. **Clone the repository** to your local machine:
    ```bash
    git clone https://github.com/MACaron99/test-prom-ua
-
+2. **Build and Run:**
+   - Open the project in your preferred IDE.
+   - Build the project using Maven:
+     ```bash
+     mvn clean install
+   - Run the application:
+     ```bash
+     mvn spring-boot:run
